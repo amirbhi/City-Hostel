@@ -1,0 +1,34 @@
+.aboutBack{
+    background-image: url('/public/images/title_bg.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+}
+.Abouth1{
+    
+   
+ 
+    
+ 
+
+    color: #FD7444;
+            font-size: 50px;
+            font-weight: 900;
+            padding-top: 50px,
+
+
+}
+.aboutPara{
+    background-color: #F7F5F2;
+}
+.aboutPara1{
+color: lightslategray;
+width: 80%;
+font-size: 13px;
+margin: 0 auto;
+/* text-align: center; */
+width: 80%;
+padding-left: 20px;
+padding-right: 20px;
+}

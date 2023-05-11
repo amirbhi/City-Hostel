@@ -1,0 +1,45 @@
+.h4style{
+    font-size:  0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Oswald,sans-serif;
+    color: #444349;
+    margin-top: 10px;
+    text-align: center;
+    
+    font-family: "Times New Roman", Times, serif;
+}
+.h4style:hover{
+    color: brown;
+    cursor: pointer;
+}
+.iconstyle{
+    width: 1.777em;
+    color: #444349;
+    background-color: #ffdb74;
+    font-size: 30px;
+    height: 1.777em;
+    line-height: 1.777em;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    
+}
+.iconstyle:hover{
+    background-color: rgb(41, 37, 37);
+    color: brown;
+    cursor: pointer;
+}
+.facilty{
+    color: #fd7444;
+    font-family: 'Fjalla One', sans-serif;
+    /* font-family: 'Sansita One', serif; */
+    font-weight: 800;
+}
+.para1{
+
+    font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.header img{
+    
+}
+
+li{
+    color: red;
+ }
+.menulink{
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menulink:hover{
+    color: #FFDB74;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .mydiv {
+      margin-left: 1rem; /* or use the ml-3 utility class */
+    }
+  }
