@@ -4,12 +4,12 @@ const userDetailSchema = new mongoose.Schema({
     // For User Schema
     firstName: {
         type: String,
-        required: [true, "please add a firstName "],
+        // required: [true, "please add a firstName "],
         trim: true
       },
       lastName: {
         type: String,
-        required: [true, "please add a lastName "],
+        // required: [true, "please add a lastName "],
         trim: true
       },
       email: {
@@ -23,6 +23,7 @@ const userDetailSchema = new mongoose.Schema({
         required:[true, "please add a Password filed"],
         trim: true
       },
+      token: { type: String }
     // text: {
     //     type : String,
     //     required: [true, "please add a text filed"]

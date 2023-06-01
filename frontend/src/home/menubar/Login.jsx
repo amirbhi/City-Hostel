@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Button } from "react-bootstrap";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
     const [inpt,setInp]=useState({
@@ -23,7 +24,7 @@ password:""
         e.preventDefault();
     }
   return (
-    <Form className="container login-form mt-4" onSubmit={handleSubmit}  >
+    <Form className="container login-form mt-4 " style={{width:'50%',padding:'80px'}} onSubmit={handleSubmit}  >
       <h3 className="text-center mb-3">Log in to your account</h3>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -42,9 +43,9 @@ password:""
         <a href="/">Forgot password?</a>
       </div>
 
-      <Button className="mt-3" variant="primary" type="submit" block>
+      <Link to={'/admin'} className="btn btn-primary form-control text-white mt-3" variant="primary" type="submit" block>
         Log in
-      </Button>
+      </Link >
 
       <p className="text-center mt-3">
         Don't have an account? <a href="/">Sign up now</a>

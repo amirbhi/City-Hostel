@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 connectDb()
 // set up error handling middleware
-app.use("/user", require("./routes/userRouts")  )
+app.use("/", require("./routes/userRouts")  )
 app.use("/room", require("./routes/roomRouts"))
 
 

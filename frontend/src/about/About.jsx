@@ -11,6 +11,7 @@ import ContactForm from "../home/Contact/Contact";
 function About() {
   return (
     <div>
+      <MenuItem/>
       
       <div className="aboutBack">
         <h1 style={{ color:'white' }} className="Abouth1 text-center">About Page</h1>

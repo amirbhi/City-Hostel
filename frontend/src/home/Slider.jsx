@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function IndividualIntervalsExample() {
+function Slider() {
   return (
     <Carousel slide={false}>
       <Carousel.Item interval={1500}>
@@ -51,4 +51,4 @@ function IndividualIntervalsExample() {
   );
 }
 
-export default IndividualIntervalsExample;
+export default Slider;

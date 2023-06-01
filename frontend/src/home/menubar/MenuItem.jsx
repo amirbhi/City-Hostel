@@ -30,27 +30,27 @@ function MenuItem() {
             >
               <ul class="navbar-nav w-100 d-flex justify-content-evenly ">
                 <li class="nav-item active">
-                  <Link to={"/"} className="menulink">
+                  <Link to={"/"} className="menulink " style={{textDecoration:'none'}}>
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/about"} className="menulink">
+                  <Link to={"/about"} className="menulink"  style={{textDecoration:'none'}}>
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/rooms"} className="menulink">
+                  <Link to={"/rooms"} className="menulink"  style={{textDecoration:'none'}}>
                     Rooms
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/contact"} className="menulink">
+                  <Link to={"/contact"} className="menulink"  style={{textDecoration:'none'}}>
                     Contact
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/Gallery"} className="menulink">
+                  <Link to={"/Gallery"} className="menulink"  style={{textDecoration:'none'}}>
                     Gallery
                   </Link>
                 </li>
@@ -68,7 +68,7 @@ function MenuItem() {
           </div>
           <div>
             {/*Sign in */}
-            <Link to={"/login"} className="btn btn-outline-primary">
+            <Link to={"/signup"} className="btn btn-outline-primary">
               SignUp
             </Link>
           </div>

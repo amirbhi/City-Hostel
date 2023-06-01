@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function CardSlider() {
     const [cards, setCards] = useState([]);
@@ -33,8 +34,8 @@ function CardSlider() {
       <Row>
         {cards.slice(index, index + 3).map(card => (
           <Col key={card.id}>
-            <Card>
-              <Card.Img variant="top" src={card._id}  style={{ height: '200px', width: 'auto' }}/>
+            <Card style={{padding:'50px'}}>
+              <Card.Img variant="top"  src="/images/slide3.webp"  style={{ height: '200px', width: 'auto' }}/>
               <Card.Body>
               <Card.Title>{card.title}</Card.Title>
                 <Card.Text>
@@ -45,7 +46,7 @@ function CardSlider() {
                   <p style={{fontSize:'13px',fontWeight:"800",display:'inline-block',marginRight:'5px',marginBottom:'0px'}}>Remaining Seats in this room:</p>
                   {card.roomCapacity}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Link to={'/login'} variant="primary" style={{textDecoration:'none'}}>Book Now</Link>
               </Card.Body>
             </Card>
           </Col>

@@ -9,6 +9,7 @@ import BackgroundEgg from './bgEgg/BackgroundEgg'
 import ContactForm from './Contact/Contact'
 import Rooms from './rooms/Rooms'
 import CardSlider from './CardSlider'
+import MenuItem from './menubar/MenuItem'
 
 
 function Home() {
@@ -16,6 +17,8 @@ function Home() {
     <div>
         {/* <Menubar/> */}
         {/* <MenuItem/> */}
+      <MenuItem/>
+
         <IndividualIntervalsExample/>
         <CheckAvailability/>
         <Services/>

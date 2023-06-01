@@ -35,6 +35,8 @@ const Rooms = () => {
   return (
     <>
     {/* <MenuItem/> */}
+    <MenuItem/>
+
     <div className="aboutBack">
         <h1 style={{ color:'white' }} className="Abouth1 text-center">Room Page</h1>
       </div>
@@ -60,7 +62,7 @@ const Rooms = () => {
         {cards.map(card => (
           <div key={card.id} className='col-md-4'>
             <Card>
-              <Card.Img variant="top" src={card._id}  style={{ height: '200px', width: 'auto' }}/>
+              <Card.Img variant="top" src={ "/images/slide3.webp"}  style={{ height: '200px', width: 'auto' }}/>
               <Card.Body>
                 <Card.Title>{card.title}</Card.Title>
                 <Card.Text>
